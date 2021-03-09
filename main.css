@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    }
+
+ h2{
+    font-size:225% ;
+    padding-bottom: 23px;
+}
+
+h1{
+    font-size: 400%;
+    color:white
+ }
+
+form{
+border:1px solid black;
+width: 979px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+p{
+    font-size: 100%;
+    line-height: 150%;
+}
+
+header{
+    height: 264px;
+    background-image: url(img/lone-starfish-wide.jpg);
+    background-size: cover;
+    height: 340px;
+}
+
+
+
+main{
+    width: 1004px;
+    padding: 10px;
+}
+
+
+textarea{
+    width: 971px;
+    height: 100px;
+    resize: none;
+}
+
+
+article img{
+    float: left;
+    margin-right: 22px;
+    margin-bottom: 40px;
+}
+
+main form{
+    padding-left: 18px;
+    padding-right: 16px;
+    padding-top: 37px;
+}
+
+form h2{
+    font-size: 176%;
+}
+
+.nav nav a{
+    font-size: 20px;
+   
+}
+
+.contact input {
+    width:971px;  
+}
+
+main .article_two h2{
+    padding-bottom: 20px;
+    padding-top:37px;
+}
+
+.article_two ul{
+    padding-bottom: 34px;
+}
+
+main .article_two ul li{
+    list-style-type: disc;
+    margin-left:18px;
+}
+
+.container{
+    width:1040px ;
+    background-color:#d4e9e7 ;
+    margin: 0 auto 0 auto;
+}
+
+form a{
+    color: rgb(0, 0, 0);
+}
+
+header h1{
+    position: absolute;
+    top:21%;
+    right: 40%;
+}
+
+.sendbtn {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin-top:21px;
+    margin-bottom: 18px;
+    width: 54px;
+    text-align:center;
+    color:rgb(0, 0, 0)
+}
+
+
+body .container footer{
+    padding-bottom: 51px;
+    margin-bottom:16px;
+    text-align: right;
+    padding-right:34px;
+    padding-top:36px;
+}
+
+.nav{
+    overflow: hidden;
+
+}
+
+.nav a{
+    float: left;
+    color:#000;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 40px 10px 40px;
+    padding-right: 80px;
+    position: relative;
+    left: 11%;
+    padding-top: 0px;
+}
+
+.nav a:nth-child(1){
+    border-right:1px solid #000;
+    padding-right: 90px;
+}
+
+.nav a:nth-child(2){
+    border-right:1px solid #000;
+    padding-right: 90px;
+}
